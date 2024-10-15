@@ -1,0 +1,490 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* HERO SECTION */
+
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image:url(./asstes/image.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.image-overlay{
+    width: 100%;
+    height: 100vh;
+    background: rgba(110, 55, 4, 0.3);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.impulse{
+    font-family: 'Overpass',sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+}
+
+#menu{
+    font-size: 25px;
+    color: white;
+}
+
+#mail{
+    font-size: 25px;
+    color: white;
+}
+
+.heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-bottom: 27px;
+}
+
+.heading h1{
+    font-family: 'Playfair Display';
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin: 0px 0px 48px;
+    min-width: 1280px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 44%;
+    bottom: 0.2%;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-size: 13px;
+    border: 1px solid #92400e;
+    width: 150px;
+    padding: 15px;
+    color: white;
+    font-family: 'Overpass';
+    background: #92400e;
+
+}
+
+.findbtn{
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+    left: 150px;
+    padding-bottom: 50px;
+}
+
+.findbtn a{
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+    font-family: 'Overpass';
+    text-decoration: none;
+}
+
+.findbtn hr{
+    width: 105px;
+}
+
+.findbtn1{
+    padding: 25px;
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+    padding-bottom: 50px;
+}
+
+.findbtn1 a{
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.1rem;
+    font-family: 'Overpass';
+    text-decoration: none;
+}
+
+.findbtn1 hr{
+    width: 105px;
+}
+
+/* HERO SECTION ENDS */
+
+/* 2nd Page */
+
+.content{
+    position: relative;
+    height: 80vh;
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.image{
+    height: 100%;
+    width: 550px;
+    float: left;
+}
+
+.image img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+
+.read{
+    position: relative;
+    height: 100%;
+    background: #f3f4f6;
+    float: right;
+}
+
+.read1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.read1 hr{
+    width:90px;
+    border: 4px solid #92400e;
+    font-size: 20px;
+}
+
+.read1 h1{
+    font-family: 'Playfair Display';
+    color: #353f4f;
+    font-size: 40px;
+    min-width: 500px;
+}
+
+.read1 p{
+    font-weight: 300;
+    font-size: 17px;
+    color: #47505f;
+    font-family: 'Overpass';
+    margin: 0px 0px 20px;
+}
+
+.readbtn{
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-size: 14px;
+    border: 2px solid #92400e;
+    padding: 20px;
+    color:#92400e;
+    font-family: 'Overpass';
+    background:white;
+}
+
+.readbtn:hover{
+    color: #fff;
+    background: #92400e;
+}
+
+/* 2nd Page ends */
+
+/* 3rd Page */
+.image-con{
+    height: 100vh;
+    width: 100%;
+    background-image:url(./asstes/couple1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* 3rd Page Ends */
+
+/* 4th Page */
+.read-again{
+    position: relative;
+    height: 100%;
+    background: #ffffff;
+    height: 60vh;
+    width: 100%;
+}
+.read2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.read2 hr{
+    width:90px;
+    border: 4px solid #92400e;
+    font-size: 20px;
+}
+
+.read2 h1{
+    text-align: center;
+    font-family: 'Playfair Display';
+    color: #353f4f;
+    font-size: 50px;
+    min-width: 500px;
+}
+
+.read2 p{
+    font-weight: 300;
+    text-align: center;
+    font-size: 17px;
+    color: #47505f;
+    font-family: 'Overpass';
+}
+
+/* 4th Page Ends */
+
+
+/* 5th Page */
+
+
+.main-imagediv{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f4f6;
+}
+
+.clm{
+    position: relative;
+    align-items: center;
+    object-fit: cover;
+    line-height: 0;
+}
+
+.clm img{
+    width: 100%;
+    filter: brightness(70%);
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.text p{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 0.08rem;
+    font-family: 'Overpass';
+}
+
+.clm img:hover{
+    filter: brightness(50%);
+    cursor: pointer;
+}
+
+
+/* 5th Page Ends */
+
+/* 6th page */
+
+.content2{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.post{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #f3f4f6;
+}
+
+.post1{
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.img{
+    width: 500px;
+    position: relative;
+    margin-left: 70px;
+}
+
+.img img{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.post1 hr{
+    width:90px;
+    border: 4px solid #92400e;
+    font-size: 20px;
+}
+
+.post1 h1{
+    font-family: 'Playfair Display';
+    color: #353f4f;
+    font-size: 35px;
+    min-width: 500px;
+}
+
+.post1 p{
+    font-weight: 300;
+    font-size: 17px;
+    color: #47505f;
+    font-family: 'Overpass';
+    margin: 0px 0px 20px;
+}
+
+.btn3{
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-size: 14px;
+    border: 2px solid #92400e;
+    padding: 20px;
+    color:#92400e;
+    font-family: 'Overpass';
+    background:white;
+}
+
+.btn3:hover{
+    color: white;
+    background: #92400e;
+}
+
+/* 6th Page End */
+
+/* 7th Page */
+.hero1{
+    height: 80vh;
+    width: 100%;
+    background-image:url(./asstes/nightcouple.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.items{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    bottom: 40px;
+}
+
+.items h1{
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    font-family: 'Playfair Display';
+}
+
+.items p{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color:white;
+    font-family: 'Overpass';
+}
+
+.btn4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 42%;
+    bottom: 0.2%;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    font-size: 13px;
+    border: 1px solid #92400e;
+    width: 150px;
+    padding: 15px;
+    color: white;
+    font-family: 'Overpass';
+    background: #92400e;
+}
+/* 7th Page Ends */
+
+/* Footer Page */
+.footer{
+    position: relative;
+    background: #353f4f;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.list{
+    position: relative;
+}
+
+.list1{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+
+.copyright{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #a5acb9;
+    font-family: 'Fira Sans Condensed';
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.list1 h1{
+    color: #a5acb9;
+    font-family: 'Playfair Display';
+    font-size: 35px;
+    position: absolute;
+    bottom: 15px;
+    left: -50px;
+}
+
+.list1 p{
+    line-height: 2rem;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Playfair Display';
+}
+
+.list1 ul li{
+    list-style: none;
+    font-size: 12px;
+    letter-spacing: 0.08rem;
+    line-height: 2rem;
+    font-family: 'Overpass';
+    color: #a5acb9;
+}
